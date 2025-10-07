@@ -1,4 +1,20 @@
 {
-	"welcome": "Welcome to our website!",
-	"buttonText": "Click me"
+	"site": {
+		"title": "Ailyn"
+	},
+	"nav": {
+		"home": "Home",
+		"about": "About",
+		"director": "Director",
+		"screenplay": "Screenplay",
+		"team": "Team",
+		"news": "News",
+		"contacts": "Contacts",
+		"donates": "Support"
+	},
+	"hero": {
+		"title": "Ailyn",
+		"subtitle": "Short film",
+		"genre": "Genre: crime drama"
+	}
 }

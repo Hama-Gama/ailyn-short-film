@@ -1,5 +1,6 @@
 import './i18n.js'
 
+import 'flag-icons/css/flag-icons.min.css'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'

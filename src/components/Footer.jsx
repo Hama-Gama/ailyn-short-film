@@ -1,9 +1,11 @@
 import React from 'react'
 
-const Footer = () => {
+export default function Footer() {
 	return (
-		<div>Footer</div>
+		<footer className='mt-auto border-t bg-black backdrop-blur-md'>
+			<div className='max-w-6xl mx-auto px-4 py-6 text-center text-sm text-gray-300'>
+				© {new Date().getFullYear()} Ailyn Film. All rights reserved.
+			</div>
+		</footer>
 	)
 }
-
-export default Footer

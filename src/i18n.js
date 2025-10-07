@@ -4,6 +4,7 @@ import LanguageDetector from 'i18next-browser-languagedetector'
 
 import en from './locales/en/translations.json'
 import ru from './locales/ru/translations.json'
+import kz from './locales/kz/translations.json'
 
 i18n
 	.use(LanguageDetector) // автоматически определяет язык
@@ -12,8 +13,9 @@ i18n
 		resources: {
 			en: { translation: en },
 			ru: { translation: ru },
+			kz: { translation: kz },
 		},
-		fallbackLng: 'en',
+		fallbackLng: 'ru',
 		interpolation: {
 			escapeValue: false,
 		},
