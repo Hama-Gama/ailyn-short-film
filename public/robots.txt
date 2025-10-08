@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Укажи основную карту сайта (если есть)
+Sitemap: https://ailynfilm.kz/sitemap.xml
+
+# Укажи, что это мультиязычный сайт
+# Можно добавить зеркала или подкаталоги для языков, если они используются
+# Например:
+# Sitemap: https://ailynfilm.kz/ru/sitemap.xml
+# Sitemap: https://ailynfilm.kz/en/sitemap.xml
+# Sitemap: https://ailynfilm.kz/kk/sitemap.xml
