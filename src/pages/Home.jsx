@@ -7,6 +7,8 @@ import Director from "@/components/Director";
 import Donates from "@/components/Donates";
 import MovieSchema from "@/components/MovieSchema";
 import References from "@/components/References";
+import FilmInfo from "@/components/FilmInfo";
+import TeamRecruitment from "@/components/TeamRecruitment";
 
 export default function Home() {
 	return (
@@ -17,6 +19,8 @@ export default function Home() {
 				<Hero />
 				<About />
 				<References />
+				<FilmInfo />
+				<TeamRecruitment />
 				<Director />
 				<Contacts />
 				<Donates />

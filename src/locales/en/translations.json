@@ -16,5 +16,52 @@
 		"title": "Ailyn",
 		"subtitle": "Short film",
 		"genre": "Genre: crime drama"
+	},
+	"filmInfo": {
+		"title": "Film Information",
+		"duration": "Duration: 15 minutes",
+		"language": "Language: Kazakh / Russian",
+		"days": "Number of shooting days: 5",
+		"genre": "Genre: crime drama / action",
+		"city": "City: Almaty",
+		"budget": "Budget: not yet determined",
+		"goal": "Goal: action festivals in Kazakhstan, CIS, and abroad"
+	},
+	"team": {
+		"title": "Team Recruitment",
+		"apply": "Submit an application"
+	},
+	"team": {
+		"title": "Team Recruitment",
+		"apply": "Submit an Application",
+		"salary": "Fees: not yet determined, under discussion.",
+		"roles": {
+			"producer": "Producer",
+			"director": "Director",
+			"stunt_actor": "Stunt Performer / Actor",
+			"fight_coordinator": "Fight Scene Coordinator",
+			"videographer": "Videographer (BMPCC 6k | Sony FX3)",
+			"sound_engineer": "Sound Engineer",
+			"actors": "Actors",
+			"action_operator": "Action Camera Operator",
+			"lighting": "Lighting Technician",
+			"pyrotechnician": "Pyrotechnician (weapons)",
+			"production_designer": "Production Designer",
+			"vfx_editor": "VFX Editor",
+			"script_supervisor": "Script Supervisor",
+			"onset_editor": "On-Set Editor",
+			"makeup_artist": "Makeup Artist",
+			"costume_designer": "Costume Designer",
+			"storyboard_artist": "Storyboard Artist",
+			"composer": "Composer",
+			"bts_operator": "Behind-the-Scenes Operator (smartphone)",
+			"smm_marketer": "SMM / Film Festival Marketing Specialist"
+		}
+	},
+	"references": {
+		"visual": "Visual and Mood References for the Film",
+		"operator": "References for the Videographer",
+		"sound": "References for the Sound Engineer",
+		"action": "References for the Action Choreographer"
 	}
 }
