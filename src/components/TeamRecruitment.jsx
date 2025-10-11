@@ -29,7 +29,7 @@ const TeamRecruitment = () => {
 	]
 
 	return (
-		<section id='team' className='w-full bg-gray-50 py-16 px-4 sm:px-6 lg:px-8'>
+		<section id='team' className='w-full bg-gray-50 py-16 px-4 sm:px-[5px] lg:px-8'>
 			<div className='max-w-4xl mx-auto'>
 				<Card className='shadow-lg border border-gray-200'>
 					<CardHeader>

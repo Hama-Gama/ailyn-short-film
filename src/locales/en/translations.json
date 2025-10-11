@@ -63,5 +63,15 @@
 		"operator": "References for the Videographer",
 		"sound": "References for the Sound Engineer",
 		"action": "References for the Action Choreographer"
+	},
+	"team": {
+		"title": "Our Team",
+		"producer": "Producer",
+		"director": "Director",
+		"writer": "Screenwriter",
+		"stunt": "Stunt Coordinator",
+		"cinematographer": "Cinematographer",
+		"sound": "Sound Engineer",
+		"vacant": "Position Open"
 	}
 }
