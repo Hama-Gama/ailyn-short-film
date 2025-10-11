@@ -64,14 +64,30 @@
 		"sound": "References for the Sound Engineer",
 		"action": "References for the Action Choreographer"
 	},
-	"team": {
-		"title": "Our Team",
-		"producer": "Producer",
-		"director": "Director",
-		"writer": "Screenwriter",
-		"stunt": "Stunt Coordinator",
-		"cinematographer": "Cinematographer",
-		"sound": "Sound Engineer",
-		"vacant": "Position Open"
+	  "crew": {
+    "title": "Film Crew",
+    "producer": "Producer",
+    "director": "Director",
+    "writer": "Writer",
+    "stunt": "Stunt Performer",
+    "cinematographer": "Cinematographer",
+    "sound": "Sound Engineer",
+    "vacant": "Vacant",
+    "names": {
+      "askar": "Askar Maulenov"
+    }
+  },
+	"actors": {
+		"title": "Cast Members",
+		"mainRole": "Main Role",
+		"supporting": "Supporting Role",
+		"stunt": "Stunt Performer",
+		"secondary": "Minor Role",
+		"extra": "Extra",
+		"vacant": "Position Available",
+		"names": {
+			"khamit": "Khamit Arkaev",
+			"aliya": "Aliya Utesbayeva"
+		}
 	}
 }

@@ -10,6 +10,7 @@ import References from "@/components/References";
 import FilmInfo from "@/components/FilmInfo";
 import TeamRecruitment from "@/components/TeamRecruitment";
 import TeamSlider from "@/components/TeamSlider";
+import ActorsSlider from "@/components/ActorsSlider";
 
 export default function Home() {
 	return (
@@ -22,6 +23,7 @@ export default function Home() {
 				<References />
 				<FilmInfo />
 				<TeamSlider />
+				<ActorsSlider />
 				<TeamRecruitment />
 				<Director />
 				<Contacts />

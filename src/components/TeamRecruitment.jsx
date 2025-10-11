@@ -29,7 +29,7 @@ const TeamRecruitment = () => {
 	]
 
 	return (
-		<section id='team' className='w-full bg-gray-50 py-16 px-4 sm:px-[5px] lg:px-8'>
+		<section id='team' className='w-full bg-gray-50 pt-8 pb-4 px-0 lg:px-8'>
 			<div className='max-w-4xl mx-auto'>
 				<Card className='shadow-lg border border-gray-200'>
 					<CardHeader>
@@ -39,7 +39,7 @@ const TeamRecruitment = () => {
 					</CardHeader>
 
 					<CardContent>
-						<div className='grid sm:grid-cols-2 gap-3 mt-4'>
+						<div className='grid sm:grid-cols-2 gap-3 mt-2'>
 							{roles.map(role => (
 								<button
 									key={role}

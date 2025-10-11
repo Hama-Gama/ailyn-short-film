@@ -8,48 +8,41 @@ import { Card, CardContent } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Instagram, Send } from 'lucide-react'
 
-const TeamSlider = () => {
+const ActorsSlider = () => {
 	const { t } = useTranslation()
 
-	const teamMembers = [
+	const actors = [
 		{
-			name: t('crew.names.askar'),
-			role: t('crew.producer'),
-			img: '/sliders-team/1.jpg',
+			name: t('actors.names.khamit'),
+			role: t('actors.mainRole'),
+			img: '/actors/1.jpg',
 			telegram: 'https://web.telegram.org/',
 			instagram: 'https://instagram.com/',
 		},
 		{
-			name: t('crew.vacant'),
-			role: t('crew.director'),
+			name: t('actors.names.aliya'),
+			role: t('actors.supporting'),
+			img: '/placeholders/lady.jpg',
+			telegram: 'https://web.telegram.org/',
+			instagram: 'https://instagram.com/',
+		},
+		{
+			name: t('actors.vacant'),
+			role: t('actors.stunt'),
 			img: '/placeholders/men.jpg',
 			telegram: 'https://web.telegram.org/',
 			instagram: 'https://instagram.com/',
 		},
 		{
-			name: t('crew.vacant'),
-			role: t('crew.writer'),
+			name: t('actors.vacant'),
+			role: t('actors.secondary'),
 			img: '/placeholders/men.jpg',
 			telegram: 'https://web.telegram.org/',
 			instagram: 'https://instagram.com/',
 		},
 		{
-			name: t('crew.vacant'),
-			role: t('crew.stunt'),
-			img: '/placeholders/men.jpg',
-			telegram: 'https://web.telegram.org/',
-			instagram: 'https://instagram.com/',
-		},
-		{
-			name: t('crew.vacant'),
-			role: t('crew.cinematographer'),
-			img: '/placeholders/men.jpg',
-			telegram: 'https://web.telegram.org/',
-			instagram: 'https://instagram.com/',
-		},
-		{
-			name: t('crew.vacant'),
-			role: t('crew.sound'),
+			name: t('actors.vacant'),
+			role: t('actors.extra'),
 			img: '/placeholders/men.jpg',
 			telegram: 'https://web.telegram.org/',
 			instagram: 'https://instagram.com/',
@@ -57,10 +50,10 @@ const TeamSlider = () => {
 	]
 
 	return (
-		<section className='py-4 bg-gray-50'>
+		<section className='py-2 bg-gray-50'>
 			<div className='max-w-7xl mx-auto px-4'>
 				<h2 className='text-3xl font-bold mb-6 text-center text-gray-900'>
-					{t('crew.title')}
+					{t('actors.title')}
 				</h2>
 
 				<Swiper
@@ -75,23 +68,23 @@ const TeamSlider = () => {
 					pagination={{ clickable: true }}
 					className='pb-10'
 				>
-					{teamMembers.map((member, index) => (
+					{actors.map((actor, index) => (
 						<SwiperSlide key={index}>
-							<Card className='shadow-md hover:shadow-lg transition-all duration-300 rounded-xl bg-white m-0 mb-10'>
+							<Card className='shadow-md hover:shadow-lg transition rounded-xl bg-white m-0 mb-10'>
 								<CardContent className='flex flex-col items-center p-2 text-center'>
 									<img
-										src={member.img}
-										alt={member.name}
+										src={actor.img}
+										alt={actor.name}
 										className='w-32 h-32 rounded-full object-cover mb-4 border border-gray-200'
 									/>
 									<h3 className='text-xl font-semibold text-gray-900'>
-										{member.name}
+										{actor.name}
 									</h3>
-									<p className='text-gray-600 mt-1'>{member.role}</p>
+									<p className='text-gray-600 mt-1'>{actor.role}</p>
 
 									<div className='flex gap-3 mt-4'>
 										<a
-											href={member.telegram}
+											href={actor.telegram}
 											target='_blank'
 											rel='noopener noreferrer'
 										>
@@ -104,7 +97,7 @@ const TeamSlider = () => {
 											</Button>
 										</a>
 										<a
-											href={member.instagram}
+											href={actor.instagram}
 											target='_blank'
 											rel='noopener noreferrer'
 										>
@@ -127,4 +120,4 @@ const TeamSlider = () => {
 	)
 }
 
-export default TeamSlider
+export default ActorsSlider
