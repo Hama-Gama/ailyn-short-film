@@ -26,21 +26,28 @@ export default function LanguageSwitcher() {
 	return (
 		<DropdownMenu>
 			<DropdownMenuTrigger asChild>
-				<Button variant='outline' size='icon' className='rounded-full text-gray-600 bg-gray-300'>
-					<Globe className='h-5 w-5' />
+				<Button
+					variant='ghost'
+					size='icon'
+					className='bg-transparent hover:bg-transparent text-gray-200 hover:text-white focus:ring-0 focus:outline-none'
+				>
+					<Globe className='!w-8 !h-8 text-gray-300 transition-transform duration-200 hover:scale-110 rounded-full' />
 				</Button>
 			</DropdownMenuTrigger>
 
-			<DropdownMenuContent align='end'>
+			<DropdownMenuContent
+				align='end'
+				className='bg-white/90 backdrop-blur-md shadow-md border border-gray-200 rounded-md'
+			>
 				{languages
 					.filter(lang => lang.code !== currentLang)
 					.map(lang => (
 						<DropdownMenuItem
 							key={lang.code}
 							onClick={() => changeLanguage(lang.code)}
-							className='flex items-center gap-2'
+							className='flex items-center gap-2 cursor-pointer'
 						>
-							<span className={`fi ${lang.flag} w-5 h-5 rounded-full`} />
+							<span className={`fi ${lang.flag} w-8 h-8 rounded-full`} />
 							<span>{lang.label}</span>
 						</DropdownMenuItem>
 					))}
