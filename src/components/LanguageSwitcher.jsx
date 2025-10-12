@@ -31,7 +31,7 @@ export default function LanguageSwitcher() {
 					size='icon'
 					className='bg-transparent hover:bg-transparent text-gray-200 hover:text-white focus:ring-0 focus:outline-none'
 				>
-					<Globe className='!w-8 !h-8 text-gray-300 transition-transform duration-200 hover:scale-110 rounded-full' />
+					<Globe className='!w-6 !h-6 text-gray-200 transition-transform duration-200 hover:scale-110 rounded-full' />
 				</Button>
 			</DropdownMenuTrigger>
 

@@ -44,7 +44,7 @@ const Header = () => {
 
 	return (
 		<header
-			className={`fixed top-0 left-0 w-full z-50 py-2 px-4 transition-all duration-500 ease-in-out ${
+			className={`fixed top-0 left-0 w-full z-50 py-2 px-0 transition-all duration-500 ease-in-out ${
 				scrolled
 					? 'bg-black/70 backdrop-blur-md shadow-sm opacity-100'
 					: 'bg-transparent opacity-90'
@@ -56,7 +56,11 @@ const Header = () => {
 		>
 			{/* DESKTOP HEADER */}
 			<div className='hidden md:flex w-full items-center justify-between sm:px-2 lg:px-6'>
-				<h2 className='text-white text-2xl font-bold tracking-wide'>A</h2>
+				<img
+					src="/logo.png"
+					alt="Logo"
+					className="h-10 p-2"
+				></img>
 
 				<nav className='flex gap-6 items-center text-gray-200'>
 					{navLinks.map(link => (
@@ -76,7 +80,11 @@ const Header = () => {
 
 			{/* MOBILE HEADER */}
 			<div className='md:hidden relative flex items-center justify-between w-full px-2 py-2'>
-				<h2 className='text-white text-xl font-bold'>A</h2>
+				<img
+						src="/logo.png"
+						alt="Logo"
+						className="h-10 p-2"
+					></img>
 
 				<div className='absolute left-1/2 -translate-x-1/2'>
 					<LanguageSwitcher />
