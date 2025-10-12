@@ -28,7 +28,7 @@ const ActorsSlider = () => {
 		},
 		{
 			name: t('actors.vacant'),
-			role: t('actors.stunt'),
+			role: t('actors.secondary'),
 			img: '/placeholders/men.jpg',
 			telegram: 'https://web.telegram.org/',
 			instagram: 'https://instagram.com/',

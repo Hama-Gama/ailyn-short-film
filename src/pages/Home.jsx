@@ -11,6 +11,7 @@ import FilmInfo from "@/components/FilmInfo";
 import TeamRecruitment from "@/components/TeamRecruitment";
 import TeamSlider from "@/components/TeamSlider";
 import ActorsSlider from "@/components/ActorsSlider";
+import NewsSlider from "@/components/NewsSlider";
 
 export default function Home() {
 	return (
@@ -25,6 +26,7 @@ export default function Home() {
 				<TeamSlider />
 				<ActorsSlider />
 				<TeamRecruitment />
+				<NewsSlider /> 
 				<Director />
 				<Contacts />
 				<Donates />

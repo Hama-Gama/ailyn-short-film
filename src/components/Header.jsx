@@ -56,11 +56,7 @@ const Header = () => {
 		>
 			{/* DESKTOP HEADER */}
 			<div className='hidden md:flex w-full items-center justify-between sm:px-2 lg:px-6'>
-				<img
-					src="/logo.png"
-					alt="Logo"
-					className="h-10 p-2"
-				></img>
+				<img src='/logo.png' alt='Logo' className='h-10 p-2'></img>
 
 				<nav className='flex gap-6 items-center text-gray-200'>
 					{navLinks.map(link => (
@@ -80,11 +76,7 @@ const Header = () => {
 
 			{/* MOBILE HEADER */}
 			<div className='md:hidden relative flex items-center justify-between w-full px-2 py-2'>
-				<img
-						src="/logo.png"
-						alt="Logo"
-						className="h-10 p-2"
-					></img>
+				<img src='/logo.png' alt='Logo' className='h-10 p-2'></img>
 
 				<div className='absolute left-1/2 -translate-x-1/2'>
 					<LanguageSwitcher />
@@ -104,7 +96,7 @@ const Header = () => {
 			{isOpen && (
 				<div
 					className='min-[801px]:hidden fixed top-0 left-0 w-full h-screen z-40 
-          bg-black/80 backdrop-blur-2xl 
+          bg-black/90 backdrop-blur-[450px]
           flex items-center justify-center px-6 
           transition-all duration-500 ease-in-out'
 					onClick={() => setIsOpen(false)}

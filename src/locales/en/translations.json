@@ -64,30 +64,46 @@
 		"sound": "References for the Sound Engineer",
 		"action": "References for the Action Choreographer"
 	},
-	  "crew": {
-    "title": "Film Crew",
-    "producer": "Producer",
-    "director": "Director",
-    "writer": "Writer",
-    "stunt": "Stunt Performer",
-    "cinematographer": "Cinematographer",
-    "sound": "Sound Engineer",
-    "vacant": "Vacant",
-    "names": {
-      "askar": "Askar Maulenov"
-    }
-  },
+	"crew": {
+		"title": "Film Crew",
+		"producer": "Producer",
+		"director": "Director",
+		"writer": "Writer",
+		"stunt": "Stunt Performer",
+		"cinematographer": "Cinematographer",
+		"sound": "Sound Engineer",
+		"vacant": "Vacant",
+		"names": {
+			"askar": "Askar Maulenov"
+		}
+	},
 	"actors": {
 		"title": "Cast Members",
-		"mainRole": "Main Role",
-		"supporting": "Supporting Role",
-		"stunt": "Stunt Performer",
+		"mainRole": "The officer of the National Security Committee",
+		"supporting": "Aylin",
 		"secondary": "Minor Role",
 		"extra": "Extra",
 		"vacant": "Position Available",
 		"names": {
 			"khamit": "Khamit Arkayev",
 			"aliya": "Aliya Utesbayeva"
+		}
+	},
+	"sections": {
+		"news": {
+			"title": "News & Blog",
+			"video": "Video",
+			"podcast": "Podcast",
+			"backstage": "Backstage",
+			"article": "Article",
+			"videoTitle": "Interview with the film actors",
+			"videoDesc": "A behind-the-scenes discussion and preparation for shooting.",
+			"podcastTitle": "Podcast about the film production",
+			"podcastDesc": "Conversation with producers and directors about the creative process.",
+			"backstageTitle": "Behind the scenes of filming",
+			"backstageDesc": "How the most challenging scenes were made.",
+			"articleTitle": "New article about the project",
+			"articleDesc": "The latest news and interviews with the film crew."
 		}
 	}
 }
