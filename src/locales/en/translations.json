@@ -104,5 +104,15 @@
 			"articleTitle": "New article about the project",
 			"articleDesc": "The latest news and interviews with the film crew."
 		}
+	},
+	"contacts": {
+		"title": "Contacts",
+		"subtitle": "Get in touch — we’d love to collaborate!",
+		"name": "Your name",
+		"email": "Your email",
+		"message": "Message",
+		"send": "Send",
+		"telegram": "Telegram",
+		"address": "Almaty, Kazakhstan"
 	}
 }
