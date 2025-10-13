@@ -27,7 +27,6 @@ export default function Home() {
 				<ActorsSlider />
 				<TeamRecruitment />
 				<NewsSlider /> 
-				<Director />
 				<Contacts />
 				<Donates />
 			</main>

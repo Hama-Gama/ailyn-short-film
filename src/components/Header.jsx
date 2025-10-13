@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Sling as Hamburger } from 'hamburger-react'
 import LanguageSwitcher from '@/components/LanguageSwitcher'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
 	const [isOpen, setIsOpen] = useState(false)
@@ -56,7 +57,9 @@ const Header = () => {
 		>
 			{/* DESKTOP HEADER */}
 			<div className='hidden md:flex w-full items-center justify-between sm:px-2 lg:px-6'>
-				<img src='/logo.png' alt='Logo' className='h-10 p-2'></img>
+				<Link to='/'>
+					<img src='/logo.png' alt='Logo' className='h-10 p-1' />
+				</Link>
 
 				<nav className='flex gap-6 items-center text-gray-200'>
 					{navLinks.map(link => (
@@ -76,7 +79,9 @@ const Header = () => {
 
 			{/* MOBILE HEADER */}
 			<div className='md:hidden relative flex items-center justify-between w-full px-2 py-2'>
-				<img src='/logo.png' alt='Logo' className='h-10 p-2'></img>
+				<Link to='/'>
+					<img src='/logo.png' alt='Logo' className='h-10 p-1' />
+				</Link>
 
 				<div className='absolute left-1/2 -translate-x-1/2'>
 					<LanguageSwitcher />

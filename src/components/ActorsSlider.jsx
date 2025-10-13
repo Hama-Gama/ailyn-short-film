@@ -16,8 +16,8 @@ const ActorsSlider = () => {
 			name: t('actors.names.khamit'),
 			role: t('actors.mainRole'),
 			img: '/actors/1.jpg',
-			telegram: 'https://web.telegram.org/',
-			instagram: 'https://instagram.com/',
+			telegram: 'https://t.me/hama_gamma',
+			instagram: 'https://www.instagram.com/hama_gamma/',
 		},
 		{
 			name: t('actors.names.aliya'),
@@ -42,7 +42,7 @@ const ActorsSlider = () => {
 		},
 		{
 			name: t('actors.vacant'),
-			role: t('actors.extra'),
+			role: t('actors.secondary'),
 			img: '/placeholders/men.jpg',
 			telegram: 'https://web.telegram.org/',
 			instagram: 'https://instagram.com/',
@@ -75,7 +75,7 @@ const ActorsSlider = () => {
 									<img
 										src={actor.img}
 										alt={actor.name}
-										className='w-32 h-32 rounded-full object-cover mb-4 border border-gray-200'
+										className='w-32 h-32 rounded-full object-cover mb-4 border border-gray-200 shadow-lg hover:shadow-xl transition-shadow duration-300'
 									/>
 									<h3 className='text-xl font-semibold text-gray-900'>
 										{actor.name}

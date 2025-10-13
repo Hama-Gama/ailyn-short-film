@@ -74,7 +74,7 @@
 		"sound": "Sound Engineer",
 		"vacant": "Vacant",
 		"names": {
-			"askar": "Askar Maulenov"
+			"askar": "Askar Askar"
 		}
 	},
 	"actors": {
@@ -82,7 +82,6 @@
 		"mainRole": "The officer of the National Security Committee",
 		"supporting": "Aylin",
 		"secondary": "Minor Role",
-		"extra": "Extra",
 		"vacant": "Position Available",
 		"names": {
 			"khamit": "Khamit Arkayev",

@@ -21,7 +21,7 @@ const NewsSlider = () => {
 			type: 'podcast',
 			title: t('sections.news.podcastTitle'),
 			description: t('sections.news.podcastDesc'),
-			thumbnail: '/thumbnails/news-placeholder.jpeg',
+			thumbnail: '/thumbnails/podcast-1.jpg',
 			link: 'https://spotify.com',
 		},
 		{
@@ -29,7 +29,7 @@ const NewsSlider = () => {
 			type: 'backstage',
 			title: t('sections.news.backstageTitle'),
 			description: t('sections.news.backstageDesc'),
-			thumbnail: '/thumbnails/news-placeholder.jpeg',
+			thumbnail: '/thumbnails/backstage-1.jpg',
 			link: '#',
 		},
 		{
@@ -43,9 +43,9 @@ const NewsSlider = () => {
 	]
 
 	return (
-		<section id='news' className='py-16 bg-black text-white'>
+		<section id='news' className='py-16 bg-gray-100 text-white'>
 			<div className='container mx-auto px-6'>
-				<h2 className='text-3xl md:text-4xl font-bold mb-8 text-center'>
+				<h2 className='text-black text-3xl md:text-4xl font-bold mb-8 text-center'>
 					{t('sections.news.title')}
 				</h2>
 
@@ -68,7 +68,7 @@ const NewsSlider = () => {
 								href={item.link}
 								target='_blank'
 								rel='noopener noreferrer'
-								className='group block bg-gray-800 rounded-[10px] overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300'
+								className='group block bg-black rounded-[10px] overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300'
 							>
 								<div className='relative w-full h-56 overflow-hidden'>
 									<img
