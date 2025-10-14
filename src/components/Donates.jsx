@@ -121,9 +121,11 @@ const SupportSection = () => {
 								<span className='font-semibold text-2xl'>Kaspi Gold</span>
 							</div>
 							<p className='text-2xl font-semibold text-gray-900'>
-								+7 707 891 91 81
+								+7 777 XXX XX XX
 							</p>
-							<p className='text-gray-600 text-2xl mt-1'>Хамит А.</p>
+							<p className='text-gray-600 text-2xl mt-1'>
+								{t('support.transfersUnavailable')}
+							</p>
 						</div>
 					</div>
 				</Card>

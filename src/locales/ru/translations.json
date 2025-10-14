@@ -125,6 +125,7 @@
 		"enterAmount": "Введите сумму пожертвования",
 		"amountPlaceholder": "Введите сумму...",
 		"selectedCurrency": "Выбранная валюта",
-		"confirm": "Подтвердить"
+		"confirm": "Подтвердить",
+		"transfersUnavailable": "Переводы недоступны"
 	}
 }

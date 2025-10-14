@@ -125,6 +125,7 @@
 		"enterAmount": "Enter your donation amount",
 		"amountPlaceholder": "Enter amount...",
 		"selectedCurrency": "Selected currency",
-		"confirm": "Confirm"
+		"confirm": "Confirm",
+		"transfersUnavailable": "Transfers unavailable"
 	}
 }

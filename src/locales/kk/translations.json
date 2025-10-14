@@ -125,6 +125,7 @@
 		"enterAmount": "Қайырымдылық сомасын енгізіңіз",
 		"amountPlaceholder": "Соманы енгізіңіз...",
 		"selectedCurrency": "Таңдалған валюта",
-		"confirm": "Растау"
+		"confirm": "Растау",
+		"transfersUnavailable": "Аударымдар қолжетімсіз"
 	}
 }
