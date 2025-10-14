@@ -114,5 +114,17 @@
 		"send": "Send",
 		"telegram": "Telegram",
 		"address": "Almaty, Kazakhstan"
+	},
+	"support": {
+		"title": "Support the Project",
+		"subtitle": "Your contribution helps us develop the film industry and create inspiring stories.",
+		"helpUs": "Support our project!",
+		"currency": "Currency",
+		"or": "or",
+		"otherAmount": "Other amount",
+		"enterAmount": "Enter your donation amount",
+		"amountPlaceholder": "Enter amount...",
+		"selectedCurrency": "Selected currency",
+		"confirm": "Confirm"
 	}
 }

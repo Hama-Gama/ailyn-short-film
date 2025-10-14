@@ -109,7 +109,7 @@ const Contacts = () => {
 
 					{/* Форма */}
 					<Card className='shadow-md border-none bg-white'>
-						<CardContent className='p-6 space-y-4'>
+						<CardContent className='p-6 space-y-4 text-2xl'>
 							<Input
 								placeholder={t('contacts.name')}
 								className='rounded-[5px]'

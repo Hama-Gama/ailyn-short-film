@@ -76,13 +76,13 @@ const References = () => {
 	return (
 		<section className='max-w-7xl mx-auto px-4 py-10'>
 			{/* 🔹 Визуальные референсы */}
-			<h2 className='text-2xl font-semibold mb-6 text-gray-900'>
+			<h2 className='text-2xl font-semibold mb-2 text-gray-900'>
 				{t('references.visual')}
 			</h2>
 
 			<div
 				ref={scrollRef}
-				className='flex gap-4 overflow-x-auto scrollbar-hide pb-4'
+				className='flex gap-4 overflow-x-auto scrollbar-hide pb-2'
 			>
 				{imageRefs.map((src, index) => (
 					<Dialog
@@ -134,34 +134,36 @@ const References = () => {
 			</div>
 
 			{/* 🔹 Видео оператор */}
-			<h2 className='text-2xl font-semibold mt-8 mb-6 text-gray-900'>
-				{t('references.operator')}
-			</h2>
+			<div className='py-2 px-0 mt-10'>
+					<h2 className='text-2xl font-semibold mt-2 mb-2 text-gray-900'>
+						{t('references.operator')}
+					</h2>
 
-			<div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
-				{videoRefsOperator.map((url, index) => (
-					<Card
-						key={index}
-						className='overflow-hidden rounded-[5px] shadow-md py-0'
-					>
-						<CardContent className='p-0'>
-							<div className='aspect-video'>
-								<iframe
-									width='100%'
-									height='100%'
-									src={url}
-									title={`Operator reference ${index + 1}`}
-									allowFullScreen
-									className='rounded-[5px]'
-								/>
-							</div>
-						</CardContent>
-					</Card>
-				))}
+					<div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
+						{videoRefsOperator.map((url, index) => (
+							<Card
+								key={index}
+								className='overflow-hidden rounded-[5px] shadow-md py-0'
+							>
+								<CardContent className='p-0'>
+									<div className='aspect-video'>
+										<iframe
+											width='100%'
+											height='100%'
+											src={url}
+											title={`Operator reference ${index + 1}`}
+											allowFullScreen
+											className='rounded-[5px]'
+										/>
+									</div>
+								</CardContent>
+							</Card>
+						))}
+					</div>
 			</div>
 
 			{/* 🔹 Видео звукорежиссёр */}
-			<h2 className='text-2xl font-semibold mt-8 mb-6 text-gray-900'>
+			<h2 className='text-2xl font-semibold mt-8 mb-2 text-gray-900'>
 				{t('references.sound')}
 			</h2>
 
@@ -169,7 +171,7 @@ const References = () => {
 				{videoRefsSound.map((url, index) => (
 					<Card
 						key={index}
-						className='overflow-hidden rounded-[5px] shadow-md py-0'
+						className='overflow-hidden rounded-[5px] shadow-md py-0 mb-2'
 					>
 						<CardContent className='p-0'>
 							<div className='aspect-video'>
@@ -188,7 +190,7 @@ const References = () => {
 			</div>
 
 			{/* 🔹 Видео боевые сцены */}
-			<h2 className='text-2xl font-semibold mt-8 mb-6 text-gray-900'>
+			<h2 className='text-2xl font-semibold mt-8 mb-2 text-gray-900'>
 				{t('references.action')}
 			</h2>
 
