@@ -120,10 +120,10 @@ const SupportSection = () => {
 								<CreditCard className='w-6 h-6 text-red-600' />
 								<span className='font-semibold text-2xl'>Kaspi Gold</span>
 							</div>
-							<p className='text-2xl font-semibold text-gray-900'>
+							<p className='text-[16px] font-semibold text-gray-900'>
 								+7 777 XXX XX XX
 							</p>
-							<p className='text-gray-600 text-2xl mt-1'>
+							<p className='text-gray-600 text-[16px] mt-1'>
 								{t('support.transfersUnavailable')}
 							</p>
 						</div>

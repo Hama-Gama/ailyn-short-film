@@ -135,37 +135,41 @@ const References = () => {
 
 			{/* 🔹 Видео оператор */}
 			<div className='py-2 px-0 mt-10'>
-					<h2 className='text-2xl font-semibold mt-2 mb-2 text-gray-900'>
-						{t('references.operator')}
-					</h2>
+				<h2 className='text-2xl font-semibold mt-2 mb-2 text-gray-900'>
+					{t('references.operator')}
+				</h2>
 
-					<div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
-						{videoRefsOperator.map((url, index) => (
-							<Card
-								key={index}
-								className='overflow-hidden rounded-[5px] shadow-md py-0'
-							>
-								<CardContent className='p-0'>
-									<div className='aspect-video'>
-										<iframe
-											width='100%'
-											height='100%'
-											src={url}
-											title={`Operator reference ${index + 1}`}
-											allowFullScreen
-											className='rounded-[5px]'
-										/>
-									</div>
-								</CardContent>
-							</Card>
-						))}
-					</div>
+				<div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
+					{videoRefsOperator.map((url, index) => (
+						<Card
+							key={index}
+							className='overflow-hidden rounded-[5px] shadow-md py-0'
+						>
+							<CardContent className='p-0'>
+								<div className='aspect-video'>
+									<iframe
+										width='100%'
+										height='100%'
+										src={url}
+										title={`Operator reference ${index + 1}`}
+										allowFullScreen
+										className='rounded-[5px]'
+									/>
+								</div>
+							</CardContent>
+						</Card>
+					))}
+				</div>
 			</div>
 
 			{/* 🔹 Видео звукорежиссёр */}
 			<h2 className='text-2xl font-semibold mt-8 mb-2 text-gray-900'>
 				{t('references.sound')}
 			</h2>
+
+			<p className='text-gray-600 text-base mb-4'>
+				{t('references.noCountryForOldMen')}
+			</p>
 
 			<div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
 				{videoRefsSound.map((url, index) => (
@@ -193,6 +197,8 @@ const References = () => {
 			<h2 className='text-2xl font-semibold mt-8 mb-2 text-gray-900'>
 				{t('references.action')}
 			</h2>
+
+			<p className='text-gray-600 text-base mb-4'>{t('references.theRaid')}</p>
 
 			<div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
 				{videoRefsAction.map((url, index) => (
