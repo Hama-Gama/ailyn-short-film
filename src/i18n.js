@@ -21,7 +21,7 @@ i18n
 		},
 		detection: {
 			// сохраняем язык в localStorage
-			order: ['localStorage', 'navigator'],
+			order: ['localStorage', 'htmlTag', 'navigator'],
 			caches: ['localStorage'],
 		},
 	})
