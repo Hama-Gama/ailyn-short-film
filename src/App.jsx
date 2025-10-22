@@ -3,7 +3,6 @@ import Home from './pages/Home'
 
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import LanguageSwitcher from './components/LanguageSwitcher'
 
 
 
