@@ -11,7 +11,7 @@ const Contacts = () => {
 	const { t } = useTranslation()
 	const [copied, setCopied] = useState(false)
 
-	const email = 'info@filmproject.kz'
+	const email = 'ardager121@mail.ru'
 
 	const handleCopy = () => {
 		navigator.clipboard.writeText(email)
@@ -52,7 +52,7 @@ const Contacts = () => {
 
 							<div className='flex items-center gap-3'>
 								<Phone className='text-gray-700' />
-								<p className='text-gray-800'>+7 (777) 123 45 67</p>
+								<p className='text-gray-800'>+7 (707) 891 91 81</p>
 							</div>
 
 							<div className='flex items-center gap-3'>
@@ -63,7 +63,7 @@ const Contacts = () => {
 							{/* Соцсети в одну строку */}
 							<div className='flex items-center justify-start gap-6 mt-4'>
 								<a
-									href='https://wa.me/77771234567'
+									href='https://wa.me/77078919181'
 									target='_blank'
 									rel='noopener noreferrer'
 								>
@@ -77,7 +77,7 @@ const Contacts = () => {
 								</a>
 
 								<a
-									href='https://t.me/username'
+									href='https://t.me/hama_gamma'
 									target='_blank'
 									rel='noopener noreferrer'
 								>
@@ -91,7 +91,7 @@ const Contacts = () => {
 								</a>
 
 								<a
-									href='https://instagram.com/username'
+									href='https://instagram.com/'
 									target='_blank'
 									rel='noopener noreferrer'
 								>
