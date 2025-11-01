@@ -34,6 +34,7 @@
 	"team": {
 		"title": "Team Recruitment",
 		"apply": "Submit an Application",
+		"formTitle": "Application Form",
 		"salary": "Fees: not yet determined, under discussion.",
 		"roles": {
 			"producer": "Producer",
@@ -56,6 +57,19 @@
 			"composer": "Composer",
 			"bts_operator": "Behind-the-Scenes Operator (smartphone)",
 			"smm_marketer": "SMM / Film Festival Marketing Specialist"
+		},
+		"form": {
+			"fullName": "Full Name",
+			"fullNamePlaceholder": "Enter your first and last name",
+			"phone": "Phone",
+			"email": "Email",
+			"role": "Role",
+			"rolePlaceholder": "Which role are you applying for?",
+			"message": "Message",
+			"messagePlaceholder": "Tell us about your experience or skills",
+			"submit": "Send Application",
+			"sending": "Sending...",
+			"success": "Your application has been successfully sent!"
 		}
 	},
 	"references": {
