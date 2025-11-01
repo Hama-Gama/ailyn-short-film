@@ -132,7 +132,7 @@ const TeamRecruitment = () => {
 							</label>
 							<Input
 								type='text'
-								name='user_fullname'
+								name='user_name'
 								required
 								placeholder={t('team.form.fullNamePlaceholder')}
 							/>
@@ -189,7 +189,7 @@ const TeamRecruitment = () => {
 							</label>
 							<Input
 								type='text'
-								name='user_role'
+								name='user_position'
 								required
 								placeholder={t('team.form.rolePlaceholder')}
 							/>
@@ -201,7 +201,7 @@ const TeamRecruitment = () => {
 								{t('team.form.message')}
 							</label>
 							<Textarea
-								name='message'
+								name='user_comment'
 								rows='4'
 								placeholder={t('team.form.messagePlaceholder')}
 							/>
