@@ -132,6 +132,7 @@ const TeamRecruitment = () => {
 							</label>
 							<Input
 								type='text'
+								maxLength={25}
 								name='user_name'
 								required
 								placeholder={t('team.form.fullNamePlaceholder')}
