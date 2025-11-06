@@ -12,13 +12,13 @@ const ActorsSlider = () => {
 	const { t } = useTranslation()
 
 	const actors = [
-		{
-			name: t('actors.names.khamit'),
-			role: t('actors.mainRole'),
-			img: '/actors/1.jpg',
-			telegram: 'https://t.me/hama_gamma',
-			instagram: 'https://www.instagram.com/hama_gamma/',
-		},
+		// {
+		// 	name: t('actors.names.khamit'),
+		// 	role: t('actors.mainRole'),
+		// 	img: '/actors/1.jpg',
+		// 	telegram: 'https://t.me/hama_gamma',
+		// 	instagram: 'https://www.instagram.com/hama_gamma/',
+		// },
 		{
 			name: t('actors.names.aliya'),
 			role: t('actors.supporting'),
